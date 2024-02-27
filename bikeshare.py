@@ -26,7 +26,7 @@ def get_input(values, question, add_all_option=True):
     :params
         values (list): the input value should be one of elements in this list
         question (string): input question
-        add_all_option: add all option to view all data
+        add_all_option: add all options to get all data
     
     :return
         input value
@@ -239,7 +239,7 @@ def user_stats(df):
     print('-'*40)
 
 def view_raw_data(df):
-    print("View raw data ....")
+    print("View raw data from data source ....")
     answer = get_input(ANSWER_FOR_VIEWING_RAW_DATA, "Do you want to view raw data?", False)
     index = 0
     if answer == "yes":
