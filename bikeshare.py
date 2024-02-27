@@ -173,6 +173,7 @@ def station_stats(df):
 
 
 def convert_second_to_time_format(seconds):
+    """ Convert from secondes to HH:mm:ss format """
     minutes, seconds = divmod(seconds, 60)
     hours, minutes = divmod(minutes, 60)
 
