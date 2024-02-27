@@ -26,7 +26,7 @@ def get_input(values, question, add_all_option=True):
     :params
         values (list): the input value should be one of elements in this list
         question (string): input question
-        add_all_option: add all option to view all data
+        add_all_option: add all options to get all data
     
     :return
         input value
