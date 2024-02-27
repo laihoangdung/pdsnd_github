@@ -15,6 +15,9 @@ Project Title: **Explore US Bikeshare Data**
 ### Files used
 * bikeshare.py
 
+### Run file
+`python bikeshare.py`
+
 
 ### References:
 1. [MOTIVATE](https://motivateco.com/)
