@@ -238,7 +238,7 @@ def user_stats(df):
     print('-'*40)
 
 def view_raw_data(df):
-    print("View raw data ....")
+    print("View raw data from data source ....")
     answer = get_input(ANSWER_FOR_VIEWING_RAW_DATA, "Do you want to view raw data?", False)
     index = 0
     if answer == "yes":
